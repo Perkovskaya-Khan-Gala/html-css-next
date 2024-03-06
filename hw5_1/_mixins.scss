@@ -1,0 +1,11 @@
+@mixin flex-box-column() {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@mixin fonts_style($weight) {
+    font-style: normal;
+    font-weight: $weight;
+    line-height: normal;
+}
